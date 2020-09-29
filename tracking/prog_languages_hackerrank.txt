@@ -1,0 +1,141 @@
+We use cookies to ensure you have the best browsing experience on our website. Please read our cookie policy for more information about how we use cookies.
+Ok
+
+  • [logo-new-w]
+  • Practice
+  • Certification
+    NEW
+  • Compete
+  • Jobs
+  • Leaderboard
+
+  • [                    ]
+
+  •  
+    Hiring developers?
+  • Log In
+  • Sign Up
+
+Environment and Samples
+
+  • Environment for the programming languages
+  • Sample Problem Statement
+  • Writing state information to a file
+
+  • Submission are run on a Ubuntu 18.04 (LTS) AMD64 virtualized EC2 instance
+  • Multi-threading in all major languages is supported. CPU time would account for all thread's execution time in total in order to determine execution time
+  • There is a limit set on size of the code submission which is 50kB
+
+                                                                                                          Standard Challenges                                                  ML / NLP Challenges
+        Language                                  Version                              Limits                                                                  Limits
+                                                                                    Time    Memory                      Libraries                          Time       Memory              Additional Libraries
+                                                                                  (seconds)  (MB)                                                       (seconds)      (MB)
+                                                                                                   Math library
+C                         gcc 8.3.0, C11 standard                                 2         512    -lm                                                 2            512        liblinear@2.21, libsvm@3.23
+                                                                                                   json library
+                                                                                                   Math library                                                                liblinear@2.21, libsvm@3.23, Boost C++
+C++                       g++ 8.3.0, C++11 standard                               2         512    -lm                                                 2            512        Libraries v1.68
+                                                                                                   json library
+                                                                                                   Math library                                                                liblinear@2.21, libsvm@3.23, Boost C++
+C++14                     g++ 8.3.0, C++14 standard                               2         512    -lm                                                 2            512        Libraries v1.68
+                                                                                                   json library
+C#                        Mono compiler v6.4.0.198, .NET Framework 4.7.2          3         512    newtonsoft json library, WebClient, HttpClient      3            512
+Python                    Python 2.7.15                                           10        512    requests[security] beautifulsoup4 pycrypto          10           1024       Standard Libraries + numpy, scipy, sympy,
+                                                                                                   cryptography urllib3                                                        scikit-learn, nltk, pandas, statsmodels
+Python 3                  Python 3.7.3                                            10        512    requests[security] beautifulsoup4 pycrypto          10           1024       Standard Libraries + numpy, scipy, sympy,
+                                                                                                   cryptography urllib3                                                        scikit-learn, nltk, pandas, statsmodels
+                                                                                                   json-simple , google/gson , httpcomponents/                                 stanford-nlp@3.2.0, weka@3-6-10,
+Java                      Sun Java 1.7.0_80                                       4         512    httpclient V4.5 & V5, httpcomponents/               50           1024       java-ml@0.1.7, Jama@1.0.3
+                                                                                                   httpasyncclient V4.1
+                                                                                                   json-simple , google/gson , httpcomponents/                                 stanford-nlp@3.2.0, weka@3-6-10,
+Java 8                    Sun Java 1.8.0_191                                      4         512    httpclient V4.5 & V5, httpcomponents/               50           2048       java-ml@0.1.7, Jama@1.0.3
+                                                                                                   httpasyncclient V4.1
+PHP                       PHP 7.3.9                                               9         512    guzzlehttp/guzzle, guzzlehttp/psr7, rmccue/         9            512
+                                                                                                   requests, php-http/httplug
+Fortran                   GNU Fortran 5.4.1                                       5         512                                                        5            512
+Perl                      Perl (v5.26.1)                                          9         512    JSON::XS, XML::Parser, Set::Scalar,                 9            512        PDL & Text::NSP
+                                                                                                   Math::SparseVector & Math::SparseMatrix
+Ruby                      Ruby 2.6.4p104                                          10        512    json, xml-simple, http, faraday, rest-client,       10           512
+                                                                                                   httpclient, httparty
+Objective-C               Apple LLVM version 9.1.0, Target SDK: MacOSX10.13       2         512    Foundation Framework                                2            512
+                                                                                                   base-prelude, logict, pipes, hashtables, random,
+                                                                                                   text, vector, aeson, lens, lens-aeson, split,
+                                                                                                   bytestring, array, arrow-list, regex-applicative,
+                                                                                                   regex-base, regex-compat, regex-pcre-builtin,
+Haskell                   ghc 8.6.5, lts-14.7                                     5         512    regex-posix, regex-tdfa, parsec,                    5            512
+                                                                                                   unordered-containers, attoparsec, comonad, deepseq,
+                                                                                                   dlist, either, matrix, MemoTrie, threads,
+                                                                                                   monad-memo, memoize, base-unicode-symbols,
+                                                                                                   basic-prelude, bifunctors, parallel, wreq
+                                                                                                   algo.generic alog.monads core.logic data.avl                                stanford-nlp@3.2.0, weka@3-6-10,
+Clojure                   clojure 1.9.0                                           8         512    data.int-map data.json data.priority-map data.xml   8            512        java-ml@0.1.7, Jama@1.0.3
+                                                                                                   spec.alpha
+                                                                                                   Have your entry point inside an object named
+Scala                     scala 2.13.1                                            7         512    Solution json-simple example , google/gson ,        7            512        stanford-nlp@3.2.0, weka@3-6-10,
+                                                                                                   typelevel/cats, , httpcomponents/httpclient V4.5 &                          java-ml@0.1.7, Jama@1.0.3
+                                                                                                   V5, httpcomponents/httpasyncclient V4.1
+Common Lisp (SBCL)        SBCL 1.4.2                                              12        512                                                        12           512
+Lua                       Lua 5.3.3                                               12        512                                                        12           512
+Erlang                    Erlang/OTP 22 [erts-10.4.4]                             12        1024   Have your main function in module solution          12           1024
+Javascript                node.js v10.16.3                                        10        512    bignumber.js, jquery, lodash, underscore, request,  10           512
+                                                                                                   axios
+Go                        1.13                                                    4         1024   encoding/json, encoding/csv, encoding/xml, strings, 4            1024
+                                                                                                   math, container/heap, container/list, net/http
+                                                                                            30000  You can download the interpreter here: bf.                       30000
+Brainf**k                 bf                                                      3         cells  Decrementing 0 and incrementing 255 is disallowed.  3            cells
+                                                                                                   is not interpreted as 0
+                                                                                                   JVM: 1.8.0_121
+Groovy                    v2.5.8                                                  5         512    Have your entry point inside an object named        5            512
+                                                                                                   solution
+OCaml                     ocamlopt, version 4.09.0                                3         512    Jane Street OCaml core libraries, cohttp-async,     3            512
+                                                                                                   cohttp, yojson, xmlm
+F#                        F# Compiler for F# 4.5, Mono compiler v6.4.0.198        4         512                                                        4            512
+PyPy                      PyPy2.7.13 v7.1.1                                       4         512    requests[security], beautifulsoup4                  4            1024       Standard Libraries + numpy, sympy, nltk
+PyPy 3                    PyPy3.6.1 v7.1.1                                        4         512    requests[security], beautifulsoup4                  4            1024       Standard Libraries + numpy, sympy, nltk
+VB.NET                    Mono compiler v6.4.0.198, .NET Framework 4.7.2          5         512                                                        5            512
+LOLCODE                   Version 1.2 with lci v0.10.5                            5         512                                                        5            512
+Smalltalk                 GNU Smalltalk 3.2.5                                     5         512                                                        5            512
+Tcl                       Version 8.5 with tclsh                                  5         512                                                        5            512
+                                                                                                   foreach, base64enc, bayesm, Formula, class, g.data,
+                                                                                                   cluster, numDeriv, scales, codetools, permute,
+                                                                                                   date, spatial, psy, digest, pwt, statmod, stringr,
+                                                                                                   iterators, lattice, latticeExtra, timeDate,
+R                         Version 3.6.1                                           10        512    evaluate, tseries, fastcluster, fBasics, XML,       10           512
+                                                                                                   Matrix, rjson, zoo, car, plyr, sqldf, dplyr,
+                                                                                                   lubridate, randomForest, survival, data.table,
+                                                                                                   parallel, xts, neuralnet, e1071, caret, deepnet,
+                                                                                                   tm, bit64, glmnet, forecast, reshape2, xgboost,
+                                                                                                   readr
+GNU Octave                Version 4.2.2                                           5         512                                                        5            512
+COBOL                     (OpenCOBOL) 1.1.0                                       3         512                                                        3            512
+RACKET                    Version 7.4                                             10        512                                                        10           512
+RUST                      Version 1.39.0                                          5         512    num, serde, serde_json, serde_derive,               5            512
+                                                                                                   rustc-serialize, regex, time, text_io, rand
+SWIFT                     Apple Swift version 5.0.1, Target SDK: MacOSX10.14      2         512    Foundation Framework                                2            512
+PASCAL                    Version 3.0.4                                           2         512                                                        2            512
+BASH                      Version 4.4.20                                          1         512                                                        1            512
+D                         Version 2.088.0                                         3         512                                                        3            512
+Elixir                    Version 1.9.1 (compiled with Erlang/OTP 22)             12        512                                                        12           512
+Ada                       GNU Ada compiler 4.9.3                                  3         512                                                        3            512
+Nim                       Version 0.20.2                                          5         512                                                        5            512
+Julia                     Version 1.2.0                                           10        512                                                        10           512
+                                                                                                   json-simple , google/gson , , httpcomponents/
+Kotlin                    Kotlin 1.3.50                                           4         512    httpclient V4.5 & V5, httpcomponents/               50           1024
+                                                                                                   httpasyncclient V4.1
+ORACLE                    11g Express, Release 11.2.0.2.0 - 64bit                 60        512
+Microsoft SQL             Microsoft SQL Server 2014 - 12.0.2402.0 (X64)           60        512
+MySQL                     Ver 14.14 Distrib 5.7.27                                60        512
+DB2                       DB2 v10.5.0.1                                           60        512
+
+  • Contest Calendar
+  • Blog
+  • Scoring
+  • Environment
+  • FAQ
+  • About Us
+  • Support
+  • Careers
+  • Terms Of Service
+  • Privacy Policy
+  • Request a Feature
+

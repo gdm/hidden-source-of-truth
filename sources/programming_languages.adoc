@@ -1,0 +1,4 @@
+
+
+w3m -dump -cols 220 -o display_charset=UTF-8  https://www.hackerrank.com/environment/languages
+
