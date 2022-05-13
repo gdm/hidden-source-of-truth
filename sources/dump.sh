@@ -3,6 +3,7 @@
 cd ../tracking || exit 1
 
 w3m -dump -cols 220 -o display_charset=UTF-8  https://www.hackerrank.com/environment/languages > prog_languages_hackerrank.txt
+w3m -dump -cols 220 -o display_charset=UTF-8  https://www.autovendi.nl/auto-verkopen-export/?kw=auto%20exporteren > reliable_auto_models.txt
 
 
 # hotjar dumping isn't working as below (commented)
