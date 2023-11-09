@@ -2,3 +2,4 @@
 
 w3m -dump -cols 220 -o display_charset=UTF-8  https://www.hackerrank.com/environment
 
+Up-to date / popular software languages: https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
