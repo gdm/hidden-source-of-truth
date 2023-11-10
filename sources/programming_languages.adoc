@@ -1,5 +1,8 @@
 
 
+----
 w3m -dump -cols 220 -o display_charset=UTF-8  https://www.hackerrank.com/environment
+----
+The above doesn't work use https://candidatesupport.hackerrank.com/hc/en-us/articles/4402913877523-Execution-Environment-and-Samples#environment-documentation
 
 Up-to date / popular software languages: https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
