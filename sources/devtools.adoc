@@ -1,0 +1,6 @@
+
+Pre-installed software for Azure-hosteg agents
+
+  hhttps://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml
+  https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Readme.md
+  
